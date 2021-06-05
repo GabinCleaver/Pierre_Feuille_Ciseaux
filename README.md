@@ -14,6 +14,10 @@ J'ai aussi rajouté une boucle, qui permet de rejouer si on le souhaite sans rel
 
 D'ou le replay = True au début du fichier.
 
+__Dépendences :__
+
+```pip install colorama```
+
 💖 Enjoy !
 
 🎫 Mon Discord: Gabin#7955
