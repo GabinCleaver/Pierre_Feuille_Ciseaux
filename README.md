@@ -17,3 +17,5 @@ D'ou le replay = True au début du fichier.
 💖 Enjoy !
 
 🎫 Mon Discord: Gabin#7955
+
+![pierre_feuille_ciseaux](https://user-images.githubusercontent.com/79531012/120892571-50f56280-c60f-11eb-90a5-8a7f6d770d28.png)
