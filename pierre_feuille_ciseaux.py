@@ -3,8 +3,13 @@ import random
 replay = True
 
 while replay == True:
+
+    # Initalisations:
+
     choice_user = input("Entrez votre choix (pierre, feuille, ciseaux): ")
     choice_computer = random.randint(1,3)
+
+    # Conversion des chiffre en valeur dures, pierre pour 1 etc...
 
     if choice_computer == 1:
         choice_computer = "pierre"
@@ -12,6 +17,8 @@ while replay == True:
         choice_computer = "feuille"
     elif choice_computer == 3:
         choice_computer = "ciseaux"
+
+    # Vérifications des possiblitées:
 
     if choice_user == choice_computer:
         print(f"""Egalité !
@@ -38,6 +45,9 @@ while replay == True:
         Voici le résultat: 
         Toi: {choice_user}
         Ordinateur: {choice_computer}""")
+
+    # Rejouer:
+
     replay = input("""Rejouer ? (y/n) 
     [>] """)
     if replay == "y":
